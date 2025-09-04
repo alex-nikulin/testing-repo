@@ -1,5 +1,5 @@
 from datatailr.scheduler import Job, EntryPoint, JobType
-from app import main
+from service import main
 
 service = Job(
     "test_service",
