@@ -13,7 +13,7 @@ if arg == 'service':
             type=JobType.SERVICE,
             func=service_main,
         ),
-        run_as="an",
+        run_as="testdeveloper",
     )
     job.save()
 elif arg == 'app':
@@ -24,7 +24,7 @@ elif arg == 'app':
             type=JobType.APP,
             func=app_main,
         ),
-        run_as="an",
+        run_as="testdeveloper",
     )
     job.save()
 else:
